@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lololoshka</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="fluid"></canvas>
+
+<!-- 🔴 КНОПКИ ВВЕРХУ -->
+<div class="top-buttons">
+  <button>The Verkkars</button>
+  <button>Lololoshka</button>
+  <button>ivanzolo</button>
+</div>
+
+<div class="container">
+  <div class="top-section">
+    <div class="unknown">UNKNOW</div>
+    <div class="title-block">
+      <h1>LOLOLOSHKA</h1>
+      <p><a href="https://www.youtube.com/@MrLololoshka"> --> YouTube Channel <--</a></p>
+    </div>
+  </div>
+
+  <div class="video-box">
+     <span class="song-title">Lololoshka - Мы есть!</span>
+    <span class="video-label"><a href="https://youtu.be/aIlr4F4gI7I?si=z0TGK4unjGIcWlVt"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/mi_ect.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+      <span class="song-title">Lololoshka - Сияние</span>
+    <span class="video-label"><a href="https://youtu.be/Z3RQ2KKbj38?si=EwA85i_3NWCkMbDF"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/sianie.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">Lololoshka - Сердце мира</span>
+    <span class="video-label"><a href="https://youtu.be/oQf6ZUPb_74?si=AMZh1sgTF3v88waX"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/serdce_mira.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">Lololoshka - Верный путь</span>
+    <span class="video-label"><a href="https://youtu.be/SwjfG2Z4kpk?si=3SAkgb5Vd9leAsbg"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/verniy_pyt.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">Lololoshka - Великое пламя</span>
+    <span class="video-label"><a href="https://youtu.be/jsuyL--MN6Y?si=kZiBtadWMVsNX8KY"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/plyamya.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">Lololoshka - Новое поколение</span>
+    <span class="video-label"><a href="https://youtu.be/cAKepjg8nwM?si=bkeq5RbZW7UnxdQJ"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/novoe_pocolenie.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="video-box">
+    <span class="song-title">Lololoshka - Бросить вызов</span>
+    <span class="video-label"><a href="https://youtu.be/u0HtiajcEfw?si=-U9UPv4yXAsg--qG"> Official Music Video</a></span>
+    <audio controls>
+      <source src="audio/brocit_vizov.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+<footer>© 2025 Lololoshka Fan Page</footer>
+
+<script src="https://cdn.jsdelivr.net/gh/PavelDoGreat/WebGL-Fluid-Simulation/script.js"></script>
+
+<script>
+  const canvas = document.getElementById('fluid');
+  function resize() {
+    canvas.width = innerWidth;
+    canvas.height = innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+</script>
+
+</body>
+</html>
